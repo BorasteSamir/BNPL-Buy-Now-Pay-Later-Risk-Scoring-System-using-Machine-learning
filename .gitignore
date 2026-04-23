@@ -1,0 +1,114 @@
+# ─────────────────────────────────────────────
+# DATA FILES (large / sensitive)
+# ─────────────────────────────────────────────
+data/Loan_data.csv
+data/clean_data.csv
+data/featured_data.csv
+data/*.csv
+data/*.parquet
+data/*.json
+data/*.xlsx
+data/*.zip
+
+# Keep the data folder itself
+!data/.gitkeep
+
+# ─────────────────────────────────────────────
+# TRAINED MODEL ARTIFACTS
+# ─────────────────────────────────────────────
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.bin
+
+# Keep the models folder itself
+!models/.gitkeep
+
+# ─────────────────────────────────────────────
+# REPORTS / GENERATED PLOTS
+# ─────────────────────────────────────────────
+reports/*.png
+reports/*.jpg
+reports/*.pdf
+reports/*.json
+
+# Keep the reports folder itself
+!reports/.gitkeep
+
+# ─────────────────────────────────────────────
+# PYTHON
+# ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ─────────────────────────────────────────────
+# VIRTUAL ENVIRONMENTS
+# ─────────────────────────────────────────────
+venv/
+env/
+.env/
+.venv/
+fintech/
+ENV/
+Lib/
+Scripts/
+Include/
+
+# ─────────────────────────────────────────────
+# ENVIRONMENT VARIABLES / SECRETS
+# ─────────────────────────────────────────────
+.env
+.env.*
+*.secret
+secrets.yaml
+secrets.json
+
+# ─────────────────────────────────────────────
+# JUPYTER NOTEBOOKS CHECKPOINTS
+# ─────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─────────────────────────────────────────────
+# IDE / EDITOR
+# ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+*.sublime-project
+*.sublime-workspace
+
+# ─────────────────────────────────────────────
+# OS FILES
+# ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# ─────────────────────────────────────────────
+# LOGS
+# ─────────────────────────────────────────────
+*.log
+logs/
+
+# ─────────────────────────────────────────────
+# MISC
+# ─────────────────────────────────────────────
+*.tmp
+*.bak
+*.cache
+.pytest_cache/
+.coverage
+htmlcov/
