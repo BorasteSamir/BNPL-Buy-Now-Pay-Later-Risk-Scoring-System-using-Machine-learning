@@ -1,6 +1,15 @@
-# BNPL Risk Scoring System
+# 💳 BNPL Risk Scoring & Default Prediction Pipeline
 
-A machine learning system that predicts the probability of loan default for Buy Now Pay Later (BNPL) applications. It scores each applicant in real time and returns an **APPROVE**, **REVIEW**, or **REJECT** decision.
+> Production credit risk assessment and default prediction system for micro-lending with LightGBM, XGBoost, SHAP explainability, and FastAPI.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LightGBM-ROC--AUC_0.734-2e7d32?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-Sub--10ms-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SHAP-Explainability-blueviolet?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge"/>
+</p>
 
 ---
 
@@ -75,8 +84,8 @@ python --version
 Clone this repository to your computer:
 
 ```bash
-git clone https://github.com/<username>/bnpl-risk-scoring.git
-cd bnpl-risk-scoring
+git clone https://github.com/BorasteSamir/BNPL-Buy-Now-Pay-Later-Risk-Scoring-System-using-Machine-learning.git
+cd BNPL-Buy-Now-Pay-Later-Risk-Scoring-System-using-Machine-learning
 ```
 
 Or download the ZIP from GitHub and extract it.
